@@ -486,7 +486,27 @@ img {
 #modal{
   display: none;
 }
-
+#modal1{
+  display: none;
+}
+#modal2{
+  display: none;
+}
+#modal3{
+  display: none;
+}
+#modal5{
+  display: none;
+}
+#modal6{
+  display: none;
+}
+#modal7{
+  display: none;
+}
+#modal8{
+  display: none;
+}
 .container-products1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

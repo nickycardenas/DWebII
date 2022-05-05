@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RafNicBry</title>
     <script src="js/jquery-3.6.0.min.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -21,7 +22,7 @@
                 <li class="menu__item"><a href="index.html" class="menu__link">INICIO</a></li>
                 <li class="menu__item"><a href="mujeres.html" class="menu__link">MUJERES</a></li>
                 <li class="menu__item"><a href="hombres.html" class="menu__link">HOMBRES</a></li>
-                <li class="menu__item"><a href="" class="menu__link">CONTACTO</a></li>
+                <li class="menu__item"><a href="#cont" class="menu__link">CONTACTO</a></li>
               </ul>
             </nav>
           </div>
@@ -45,29 +46,244 @@
               <img src="img/mujer1.jpg" alt="" class="product__img">
               <div class="product__description">
                 <h3 class="product__title">Vestidos</h3>
-                <a href="" class="product__price">Ir</a>
+                <button class="product__price " id="btn-modal5">Ir</button>
               </div>
-              
+              <div id="modal5">
+                <section class="container-products1">
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/vestidos/1.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Vestido sin mangas largo rib</h3>
+                      <span class="product__price1">17.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/vestidos/2.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Vestido mini bandeau ajustado</h3>
+                      <span class="product__price1">17.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/vestidos/3.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Vestido tirantes mini escote corazón</h3>
+                      <span class="product__price1">15.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                </section>
+                <section class="container-products1">
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/vestidos/4.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">BACK SOON Vestido largo asimétrico ondas</h3>
+                      <span class="product__price1">25.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/vestidos/5.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Vestido midi satinado cut out</h3>
+                      <span class="product__price1">29.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/vestidos/6.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Vestido largo tirantes fruncido lateral</h3>
+                      <span class="product__price1"> 25.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                </section>
+              </div> 
             </div>
             <div class="product">
               <img src="img/mujer4.jpg" alt="" class="product__img">
               <div class="product__description">
-                <h3 class="product__title">Tops y Bodies</h3>
-                <a href="" class="product__price">Ir</a>
+                <h3 class="product__title">Blusas</h3>
+                <button class="product__price " id="btn-modal6">Ir</button>
+              </div>
+              <div id="modal6">
+                <section class="container-products1">
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/blusas/1.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Blusa manga corta satinada nudo delantero</h3>
+                      <span class="product__price1">19.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/blusas/2.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Blusa manga larga satinada nudo</h3>
+                      <span class="product__price1">19.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/blusas/3.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Blusa manga larga volantes print flores</h3>
+                      <span class="product__price1">19.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                </section>
+                <section class="container-products1">
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/blusas/4.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Blusa manga larga mesonera lino</h3>
+                      <span class="product__price1">19.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/blusas/5.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Blusa off-shoulder print mariposas</h3>
+                      <span class="product__price1">25.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/blusas/6.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Blusa manga larga escote pico ajustada fruncida</h3>
+                      <span class="product__price1">19.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                </section>
               </div>
             </div>
             <div class="product">
               <img src="img/mujer3.jpg" alt="" class="product__img">
               <div class="product__description">
-                <h3 class="product__title">Sudadera</h3>
-                <a href="" class="product__price">Ir</a>
+                <h3 class="product__title">Sudaderas</h3>
+                <button class="product__price " id="btn-modal7">Ir</button>
+              </div>
+              <div id="modal7">
+                <section class="container-products1">
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/canguros/1.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Sudadera cropped tie-dye</h3>
+                      <span class="product__price1">25.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/canguros/2.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Sudadera capucha cropped</h3>
+                      <span class="product__price1">15.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/canguros/3.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Sudadera bordado texto</h3>
+                      <span class="product__price1">29.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                </section>
+                <section class="container-products1">
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/canguros/4.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Sudadera print</h3>
+                      <span class="product__price1">25.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/canguros/5.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Sudadera capucha manga larga print</h3>
+                      <span class="product__price1">29.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/canguros/6.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Sudadera capucha print</h3>
+                      <span class="product__price1">29.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                </section>
               </div>
             </div>
             <div class="product">
               <img src="img/mujer2.jpg" alt="" class="product__img">
               <div class="product__description">
-                <h3 class="product__title">Faldas</h3>
-                <a href="" class="product__price">Ir</a>
+                <h3 class="product__title">Jeans</h3>
+                <button class="product__price " id="btn-modal8">Ir</button>
+              </div>
+              <div id="modal8">
+                <section class="container-products1">
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/jeans/1.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Jeans straight rotos efecto vintage</h3>
+                      <span class="product__price1">39.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/jeans/2.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Jeans mom rotos</h3>
+                      <span class="product__price1">35.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/jeans/3.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Jeans super high waist</h3>
+                      <span class="product__price1">19.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                </section>
+                <section class="container-products1">
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/jeans/4.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Jeans super high waist</h3>
+                      <span class="product__price1">19.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/jeans/5.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Jeans 90's print</h3>
+                      <span class="product__price1">39.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                  <div class="product1">
+                    <img src="../PROYECT2/assets/img/img ropa/mujer/jeans/6.jpg" alt="" class="product__img1">
+                    <div class="product__description1">
+                      <h3 class="product__title1">Jeans low waist relaxed baggy</h3>
+                      <span class="product__price1">35.99 €</span>
+                    </div>
+                    <i class="product__icon1 fas fa-cart-plus"></i>
+                  </div>
+                </section>
               </div>
             </div>
           </section>
@@ -82,7 +298,7 @@
         <div class="footer__section">
           <h2 class="footer__title">Ubicación :</h2>
           <p class="footer__txt">Av. San Martin entre Jordan y calama #2562</p>
-          <h2 class="footer__title">Contacto</h2>
+          <h2 class="footer__title" id="cont">Contacto</h2>
           <p class="footer__txt">Celular : +591 76543262</p>
           <p class="footer__txt">Email : rafnicbry@gmail.com</p>
         </div>
@@ -102,5 +318,6 @@
       </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/modal1.js"></script>
 </body>
 </html>

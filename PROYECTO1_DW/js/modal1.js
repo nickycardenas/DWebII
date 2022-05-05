@@ -1,0 +1,12 @@
+$('#btn-modal5').click(function(){
+    $('#modal5').modal();
+  })
+  $('#btn-modal6').click(function(){
+    $('#modal6').modal();
+  })
+  $('#btn-modal7').click(function(){
+    $('#modal7').modal();
+  })
+  $('#btn-modal8').click(function(){
+    $('#modal8').modal();
+  })
