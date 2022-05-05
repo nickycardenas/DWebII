@@ -1,3 +1,3 @@
-$('#btn').click(function(){
+$('#btn-modal').click(function(){
     $('#modal').modal();
   })
