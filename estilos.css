@@ -256,3 +256,8 @@ footer {
         font-size: 20px;
     }
 }
+
+/*modal*/
+#modal{
+    display: none;
+}
